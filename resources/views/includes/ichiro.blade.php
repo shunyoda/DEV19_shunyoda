@@ -23,15 +23,15 @@ background: #fff;
 </style>
 
 　　　　<div class=topimage>
-            <div><img src="/storage/images/ichiropage.png" class="image"></div>
+            <div><img src="/images/ichiropage.png" class="image"></div>
         </div>
           
           
 
 　　　　
     　　<div class="items">
-        	<div class="item1"><img src="/storage/images/video.png" class="icon"><h2>１５動画</h2><a>1動画は約3分〜15分</a></div>
-        　　     <div class="item2"><img src="/storage/images/original.png" class="icon"><h2>独占配信</h2><a>完全オリジナルコンテンツ</a></div>
+        	<div class="item1"><img src="/images/video.png" class="icon"><h2>１５動画</h2><a>1動画は約3分〜15分</a></div>
+        　　     <div class="item2"><img src="/images/original.png" class="icon"><h2>独占配信</h2><a>完全オリジナルコンテンツ</a></div>
            　　 　 <div class="item3"><h2>¥５,０００</h2>
             	   　<form action="{{ asset('charge') }}" method="POST" class="text-center mt-5">
                       {{ csrf_field() }}
@@ -55,7 +55,7 @@ background: #fff;
             
                      <div class="intro">新しいメンターと出会う<div class="intro2">日本初の野手のメジャーリーガーとして、国内外で数々の賞を受賞し、通算最多安打の世界記録も<br>持つ元プロ野球選手が、マインドセット、スキルセット、今に至るまでの人生を共有する</div></div>
                      <div class="yokoku">予告編</div>
-                      <div class="yokokuvideo"><img src="/storage/images/yokoku.png"></div>
+                      <div class="yokokuvideo"><img src="/images/yokoku.png"></div>
                      <div class="lesson">レッスン内容</div>
         　　<div class="container">
                       <div class="box">０１<div class="lessontitle">イントロダクション</div><div class="lessontext">元メジャーリーガーのイチローが本コースへの想いを語る</div></div>

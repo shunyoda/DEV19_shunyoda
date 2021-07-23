@@ -1,7 +1,7 @@
 
             <div class=topimage>
                 <div class="title-main">多様な著名人から<br>マインドセット・スキルセットが<br>学び放題</div>
-                        <img src="/storage/images/topimage.png" class="image1">
+                        <img src="/images/topimage.png" class="image1">
             </div>
             <div class="features">
            <div class="sample_box10">
@@ -19,11 +19,11 @@
             
             
              <div class="text-1">-Now Available-</div>
-             <div><a href="{{ url('/ichiropage') }}"><img src="/storage/images/ichiro.png" class="image2"></a></div>
+             <div><a href="{{ url('/ichiropage') }}"><img src="/images/ichiro.png" class="image2"></a></div>
                <div class="text-2">-Coming Soon-</div>
-         <div><img src="/storage/images/takenaka.png" class="image3"></div>
-          <div><img src="/storage/images/kubozuka.png" class="image4"></div>
-           <div><img src="/storage/images/message.png" class="image5"></div>
+         <div><img src="/images/takenaka.png" class="image3"></div>
+          <div><img src="/images/kubozuka.png" class="image4"></div>
+           <div><img src="/images/message.png" class="image5"></div>
               
               
         
