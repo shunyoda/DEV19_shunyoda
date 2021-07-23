@@ -13,7 +13,7 @@
                 @if (Route::has('login'))
                   <div class="top-right links">
                      @auth
-                        <a href="{{ url('/mypage') }}">マイページ</a>
+                        <a href="{{ url('mypage') }}">マイページ</a>
                          <a class="dropdown-item" href="{{ route('logout') }}"
                                 onclick="event.preventDefault();
                                     document.getElementById('logout-form').submit();">

@@ -11,18 +11,18 @@
 |
 */
 
-Route::post('/charge', 'ChargeController@charge');
+Route::post('charge', 'ChargeController@charge');
 
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/ichiropage', function () {
+Route::get('ichiropage', function () {
     return view('ichiropage');
 });
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('home', 'HomeController@index')->name('home');
 
 
 Auth::routes();
@@ -33,11 +33,11 @@ Auth::routes();
 Route::group(['middleware' => ['auth']], function () {
    
 
-Route::get('/loginIchiro', function () {
+Route::get('loginIchiro', function () {
     return view('loginIchiro');
 });
 
-Route::get('/mypage', function () {
+Route::get('mypage', function () {
     return view('mypage');
 });
  
@@ -46,13 +46,13 @@ Route::get('/mypage', function () {
 });
 
 // Stripeの処理
-Route::post('/payment', 'PaymentsController@payment')->name('payment');
+Route::post('payment', 'PaymentsController@payment')->name('payment');
 
 // 決済完了ページ
-Route::get('/complete', 'PaymentsController@complete')->name('complete');
+Route::get('complete', 'PaymentsController@complete')->name('complete');
 
 //登録情報の設定
-Route::get('/setting', 'SettingController@index')->name('setting');
+Route::get('setting', 'SettingController@index')->name('setting');
  
 
 

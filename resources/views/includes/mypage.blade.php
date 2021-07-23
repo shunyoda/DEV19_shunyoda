@@ -89,7 +89,7 @@
   </style>
 
         <div class="mypage-item">
-            <div><img src="/images/mypage-icon.png" class="mypage-icon"></div>
+            <div><img src="images/mypage-icon.png" class="mypage-icon"></div>
         </div>
         <div class='name'><?php $user = Auth::user(); ?>{{ $user->name }}</div>
       
@@ -97,7 +97,7 @@
           <div class="mypage-box">
              <p>購入済みコース</p>
             </div>
-            <div><a href="{{ url('/loginIchiro') }}"><img src="/images/ichiro.png" class="image2"></a></div>
+            <div><a href="{{ url('loginIchiro') }}"><img src="images/ichiro.png" class="image2"></a></div>
       
       
           <div class="mypage-box2">
@@ -106,10 +106,10 @@
       
         
          <div class="item">
-            <div class="item-image"><img src="/images/ichirovideo.png" alt="イチローの動画"></div>
-            <div class="item-image"><img src="/images/ichirovideo.png" alt="イチローの動画"></div>
-             <div class="item-image"><img src="/images/ichirovideo.png" alt="イチローの動画"></div>
-              <div class="item-image"><img src="/images/ichirovideo.png" alt="イチローの動画"></div>
+            <div class="item-image"><img src="images/ichirovideo.png" alt="イチローの動画"></div>
+            <div class="item-image"><img src="images/ichirovideo.png" alt="イチローの動画"></div>
+             <div class="item-image"><img src="images/ichirovideo.png" alt="イチローの動画"></div>
+              <div class="item-image"><img src="images/ichirovideo.png" alt="イチローの動画"></div>
             </div>
           </div>
           
