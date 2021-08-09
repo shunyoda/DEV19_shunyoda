@@ -1,3 +1,33 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@shunyoda 
+shunyoda
+/
+DEV19_shunyoda
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+DEV19_shunyoda/resources/views/welcome.blade.php
+@shunyoda
+shunyoda Update welcome.blade.php
+Latest commit 8cbda08 2 hours ago
+ History
+ 1 contributor
+296 lines (237 sloc)  8 KB
+  
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -56,7 +86,6 @@
     height:21px;
     background: #f7f3ee;
     
-
 }
 .sample_box10 p {
     font-size:25px;
@@ -68,7 +97,6 @@
             .position-ref {
                 position: relative;
             }
-
             .top-right {
                 position: absolute;
                 right: 10px;
@@ -84,7 +112,6 @@
                 font-weight: 600;
                 color:white;
             }
-
             .title {
                 font-size: 84px;
             }
@@ -183,14 +210,12 @@
             }
             
             sub-title{
-
                 color:white;
               
                 font-family: 'Caveat', cursive;
         
             }
             
-
             .links > a {
                 margin-top:18px;
                 color: white;
@@ -204,7 +229,6 @@
             
       
       
-
             footer{
                 width: 100%;
                 height: 100px;
@@ -228,7 +252,6 @@
             ul.footer-menu li:hover {
                 color: #C5C6D0;
                 cursor: pointer;
-
             }
             
     
@@ -278,7 +301,6 @@
             .follow-me li a[href*="instagram.com"]:hover::before      { background-color: #2C6A93;; }
             .follow-me li a[href*="twitter.com"]:hover::before        { background-color: #55acee; }
             .follow-me li a[href*="youtube.com"]:hover::before        { background-color: #cd201f; }
-
             
         </style>
     </head>
@@ -294,3 +316,16 @@
         </footer>
     </body>
 </html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
