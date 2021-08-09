@@ -19,6 +19,7 @@
                 font-weight: 200;
                 height: 100%;
                 margin: 0;
+                width:100%;
             }
         
             .full-height {
@@ -88,7 +89,7 @@
                 font-size: 84px;
             }
             .title-main {
-                font-size: 38px;
+                font-size: 30px;
                 margin-left:180px;
                 padding-top:80px;
                 color:white;
